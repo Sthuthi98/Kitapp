@@ -20,6 +20,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:id="@+id/vid"
+        android:background="@drawable/round_button"
+        android:textColor="@color/colorPrimaryDark"
         />
     <Button
         android:layout_width="350dp"
@@ -28,7 +30,9 @@
         android:layout_below="@id/vid"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:id="@+id/control"/>
+        android:id="@+id/control"
+        android:background="@drawable/round_button"
+        android:textColor="@color/colorPrimaryDark"/>
 
 
 </RelativeLayout>
