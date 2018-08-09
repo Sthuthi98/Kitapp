@@ -20,6 +20,7 @@ public class page6 extends AppCompatActivity {
             "Video 6"
     };
 
+
     Integer[] imageArray = {R.drawable.logo,
             R.drawable.logo,
             R.drawable.logo,
