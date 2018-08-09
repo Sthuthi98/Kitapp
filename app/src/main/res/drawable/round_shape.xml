@@ -5,9 +5,7 @@
     android:layout_width="wrap_content">
 
     <gradient
-        android:angle="270"
-        android:endColor="yourstartcolor"
-        android:startColor="yourendcolor"/>
+        android:angle="270" />
 
     <corners
         android:bottomLeftRadius="27dp"

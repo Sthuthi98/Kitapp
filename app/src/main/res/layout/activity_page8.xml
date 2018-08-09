@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Page8">
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo8"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/triangle_shape"
+        android:layout_below="@id/logo8"
+        android:id="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/triangle_shape"
+        android:layout_below="@id/t1"
+        android:id="@+id/t2"
+        android:rotation="-90"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/triangle_shape"
+        android:layout_below="@id/t1"
+        android:id="@+id/t3"
+        android:rotation="90"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/triangle_shape"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t4"
+        android:rotation="180"
+        android:layout_centerHorizontal="true"/>
 
-</android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
