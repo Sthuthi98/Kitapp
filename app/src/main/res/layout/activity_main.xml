@@ -28,6 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/password"
         android:layout_marginTop="50dp"
-        android:text="PROCEED"/>
+        android:text="PROCEED"
+        android:onClick="next1"/>
 
 </RelativeLayout>
