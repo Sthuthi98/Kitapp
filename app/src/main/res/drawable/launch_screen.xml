@@ -11,7 +11,7 @@
 
         <bitmap
             android:src="@drawable/logo"
-            android:gravity="center"/>
+            android:gravity="center_vertical"/>
 
     </item>
 </layer-list>
