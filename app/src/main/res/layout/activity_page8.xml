@@ -47,8 +47,13 @@
         android:layout_centerVertical="true"
         />
     <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Black"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Enter IP"/>
 
     <Button
         android:layout_width="100dp"
