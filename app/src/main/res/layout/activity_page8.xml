@@ -21,7 +21,8 @@
         android:layout_below="@id/logo8"
         android:id="@+id/t1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:onClick="up"/>
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -32,6 +33,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="15dp"
         android:layout_centerVertical="true"
+        android:onClick="left"
         />
     <Button
         android:layout_width="100dp"
@@ -45,15 +47,8 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="20dp"
         android:layout_centerVertical="true"
+        android:onClick="right"
         />
-    <Button
-        android:layout_width="60dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="480dp"
-        android:layout_centerHorizontal="true"
-        android:background="@color/Black"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Enter IP"/>
 
     <Button
         android:layout_width="100dp"
@@ -63,7 +58,8 @@
         android:layout_marginTop="20dp"
         android:id="@+id/t4"
         android:rotation="180"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:onClick="down"/>
 
 
 </RelativeLayout>
