@@ -60,6 +60,16 @@
         android:rotation="180"
         android:layout_centerHorizontal="true"
         android:onClick="down"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WiFi ON/OFF"
+        android:id="@+id/button"
+        android:onClick="wifi_connect"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/t4"
+        android:background="@drawable/round_button"
+        android:textColor="@color/colorPrimaryDark"/>
 
 
 </RelativeLayout>
