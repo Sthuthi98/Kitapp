@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Kitapp</string>
     <string name="title_activity_page4">Page4</string>
+    <string name="Disclaimer">Please insert the key code that\'s been sent to you, Without the key you cannot access this app, and if you are already a member please select the option below.</string>
 </resources>

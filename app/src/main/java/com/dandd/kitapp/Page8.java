@@ -23,8 +23,8 @@ public class Page8 extends AppCompatActivity {
     static WifiManager wifiManager;
     Context context;
     WifiConfiguration conf;
-    public static String networkSSID="esp_abc";
-    public static String networkPass="esp123";
+    public static String networkSSID="ESP";
+    public static String networkPass="hainas@19";
     byte[] buf = new byte[1024];//used to sending information to esp is a form of byte
 
     @Override

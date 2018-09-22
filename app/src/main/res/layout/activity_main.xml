@@ -16,19 +16,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="Enter the password"
+        android:hint="Enter the key code"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/logo"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:id="@+id/password"
         />
-    <Button
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="@string/Disclaimer"
+        android:layout_marginTop="25dp"
+        android:id="@+id/dis"
+        android:textColor="@color/grey"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/password"
-        android:layout_marginTop="50dp"
-        android:text="PROCEED"
+        android:layout_below="@+id/dis"
+        android:layout_marginTop="60dp"
+        android:text="Already have an account? Login"
+        android:textColor="@color/Black"
         android:onClick="next1"/>
 
 </RelativeLayout>
